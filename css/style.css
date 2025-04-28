@@ -65,6 +65,7 @@ header{
     justify-items: start;
     align-items: center;
     padding: 12px 40px;
+    z-index: 100;
 }
 header .menu_list{
     color: #fff;
@@ -91,7 +92,44 @@ header .button {
   padding: 4px 15px;
   border: 1px solid #fff;
 }
+.main {
+  clear: both;
+  width: 100%;
+  height: auto;
+  background-image: url("../img/main_bg.jpg");
+  background-position: 50% 99%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#fff;
+}
+.main .kv_bg {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+.main .kv_logo {
+  position: absolute;
+  margin-left: 11%;
+  margin-top: 29%;
+}
+.main .title {
+  width: 304px;
+  height: 648px;
+  writing-mode: vertical-rl;
+  font-size: 48px;
+  margin: auto;
+  margin-top: 150px; 
+  letter-spacing: 0.5em;
+  line-height: 80px;
+}
 
-.kv {
-  background-image: url("../img/kv\ 1.jpg");
+.main .text {
+  width: 634px;
+  height: 231px;
+  font-size: 14px;
+  line-height: 1.5em;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
 }
