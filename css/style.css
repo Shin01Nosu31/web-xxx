@@ -122,14 +122,21 @@ header .button {
   margin-top: 150px; 
   letter-spacing: 0.5em;
   line-height: 80px;
+  display: flex;
+  align-items: center
 }
 
 .main .text {
   width: 634px;
   height: 231px;
   font-size: 14px;
-  line-height: 1.5em;
+  line-height: 3;
   text-align: center;
   margin: auto;
   margin-top: 100px;
+}
+.main .main_image {
+  width: 92%;
+  height: auto;
+  margin: 80px auto;
 }
