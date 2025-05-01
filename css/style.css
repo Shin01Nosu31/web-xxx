@@ -92,6 +92,7 @@ header .button {
   padding: 4px 15px;
   border: 1px solid #fff;
 }
+
 .main {
   clear: both;
   width: 100%;
@@ -127,7 +128,6 @@ header .button {
   line-height: 80px;
   
 }
-
 .main .text {
   width: 634px;
   height: 231px;
@@ -142,7 +142,6 @@ header .button {
   height: auto;
   margin: 80px auto;
 }
-
 .main .main_movie{
   margin: auto;
 }
@@ -168,7 +167,6 @@ header .button {
   text-align: center;
   letter-spacing: 3;
 }
-
 .info .news_list{
   width: 1000px;
   margin-top: 40px;
@@ -201,7 +199,6 @@ header .button {
 .info .news_name {
   margin-left: 50px;
 }
-
 .info .button{
   display: block;
   width: 120px;
@@ -219,23 +216,19 @@ header .button {
   justify-items: center;
   padding-top: 90px;
 }
-
 .plan .title{
   font-size: 36px;
 }
-
 .plan .subtitle {
   font-size: 16px;
   color: #828282;
   letter-spacing: 3;
 }
-
 .plan .plan_body{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 25px;
   margin: 40px 141px 50px;
-
 }
 .plan .plan_main{
   width: 476px;
@@ -256,44 +249,37 @@ header .button {
   font-size: 14px;
   margin: 10px 13px 0;
 }
-
 .plan .plan_main .main_button{
   display: block;
   color: #868686;
   margin: 40px 13px 0;
   text-align: right;
 }
-
 .plan .text {
   width: 100%;
   height: auto;
   justify-items: center;
   margin-top: 50px;
 }
-
 .plan .text .text_title {
   color: #78781E;
   font-size: 22px;
   text-align: center;
 }
-
 .plan .text_hr {
   width: 800px;
   height: auto;
   margin-top: 10px;
   border-bottom: 1px solid #000;
 }
-
 .plan .text_subtitle {
   margin-top: 34px;
   font-size: 16px;
 }
-
 .plan .text_message {
   margin-top: 34px;
   font-size: 10px;
 }
-
 .plan .button {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -302,25 +288,21 @@ header .button {
   color: #fff;
   margin: 87px 0 0;
 }
-
 .plan .plan_button01 {
   display: grid;
   background-color: #78781E;
   text-align: center;
   align-content: center;
 }
-
 .plan .plan_button02 {
   display: grid;
   background-color: #333333;
   text-align: center;
   align-content: center;
 }
-
 .plan .button_text01{
   font-size: 10px;
 }
-
 .plan .button_text02{
   font-size: 26px;
 }
@@ -354,13 +336,11 @@ header .button {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .content .title{
   margin: 150px 0;
   text-align: center;
 
 }
-
 .content .title .main_title {
   font-size: 48px;
 }
@@ -393,7 +373,6 @@ header .button {
   text-align: center;
   line-height: 60px;
 }
-
 .map .button_list .button01{
   background-color: #BBBBBB;
 }
@@ -407,25 +386,21 @@ footer {
   padding: 150px 0;
   margin: 0 auto;
 }
-
 .footer_main {
   display: flex;
   justify-content: center;
 }
-
 .footer_main .footer_text {
   display: grid;
   gap: 50px;
   align-content: center;
   margin-left: auto;
 }
-
 .footer_main .footer_text .main_text {
   font-size: 14px;
   display: grid;
   gap: 10px;
 }
-
 footer .menu_list {
   margin-top: 100px;
   width: 100%;
@@ -435,14 +410,12 @@ footer .menu_list {
   gap: 2px;
   font-size: 14px;
 }
-
 footer .menu_list .list_item {
   position: relative;
   padding: 0 30px;
   letter-spacing: 1px;
   text-align: center;
 }
-
 footer .menu_list .list_item:not(:last-child)::after {
   content: "";
   position: absolute;
