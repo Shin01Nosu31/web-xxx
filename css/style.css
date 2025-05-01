@@ -325,7 +325,7 @@ header .button {
   font-size: 26px;
 }
 
-.value {
+.content {
   width: 100%;
   height: auto;
   display: grid;
@@ -334,40 +334,40 @@ header .button {
   padding: 15px 0;
   color: #fff;
 }
-.value .nature{
+.content .nature{
   background-image: url(../img/nature\ 1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.value .room {
+.content .room {
   background-image: url(../img/room\ 1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.value .food {
+.content .food {
   background-image: url(../img/food\ 1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.value .onsen {
+.content .onsen {
   background-image: url(../img/onsen\ 1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.value .title{
+.content .title{
   margin: 150px 0;
   text-align: center;
 
 }
 
-.value .title .main_title {
+.content .title .main_title {
   font-size: 48px;
 }
-.value .title .sub_title {
+.content .title .sub_title {
   font-size: 16px;
 }
-.value .title .text {
+.content .title .text {
   font-size: 24px;
   margin-top: 55px;
 }
@@ -399,4 +399,69 @@ header .button {
 }
 .map .button_list .button02{
   background-color: #222222
+}
+
+footer {
+  width: 86%;
+  height: auto;
+  padding: 150px 0;
+  margin: 0 auto;
+}
+
+.footer_main {
+  display: flex;
+  justify-content: center;
+}
+
+.footer_main .footer_text {
+  display: grid;
+  gap: 50px;
+  align-content: center;
+  margin-left: auto;
+}
+
+.footer_main .footer_text .main_text {
+  font-size: 14px;
+  display: grid;
+  gap: 10px;
+}
+
+footer .menu_list {
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  font-size: 14px;
+}
+
+footer .menu_list .list_item {
+  position: relative;
+  padding: 0 30px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+footer .menu_list .list_item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -1px;
+  width: 1px;
+  height: 100%;
+  background-color: #DDDDDD;
+}
+footer .link_list {
+  margin-top: 55px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+footer .copyright_text {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 60px;
 }
